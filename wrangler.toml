@@ -1,0 +1,10 @@
+name = "rizki-rn-portfolio"
+compatibility_date = "2025-01-01"
+
+routes = [
+  { pattern = "rizkirn.my.id", custom_domain = true },
+  { pattern = "www.rizkirn.my.id", custom_domain = true },
+]
+
+[assets]
+directory = "./dist"
